@@ -1,0 +1,35 @@
+body {
+  width: 600px;
+  border: 10px solid gray;
+  padding: 10px 30px;
+  margin: 50px auto;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#cels-formula {
+  font-size: 40px;
+  border: 1px solid black;
+  padding: 15px 10px;
+}
+
+#fahr-formula {
+  font-size: 40px;
+  border: 1px solid black;
+  padding: 15px 10px;
+}
+
+button {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 2px;
+  border: 1px solid lightgray;
+
+  transition: background 1s;
+}
+
+button:hover {
+  background: darkgray;
+  cursor: pointer;
+
+  transition: background 1s;
+}

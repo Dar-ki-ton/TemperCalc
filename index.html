@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Calc</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Fahrenheit to Celsius Convertor</h1>
+
+    <p id="cels-formula">°C = (°F - 32) x 5 / 9</p>
+
+    <h2>Input</h2>
+
+    <p>Temperature in Fahrenheit: <input id="fahr-in" type="text" /></p>
+
+    <button id="cels-convert">CONVERT</button>
+
+    <h2>Output</h2>
+
+    <p>Temperautre in Celsius: <span id="cels-out">----</span>.</p>
+
+    <hr />
+
+    <h1>Celsius to Fahrenheit Convertor</h1>
+
+    <p id="fahr-formula">°F = (°C x 5 / 9) + 32</p>
+
+    <h2>Input</h2>
+
+    <p>Temperature in Celsius: <input id="cels-in" type="text" /></p>
+
+    <button id="fahr-convert">CONVERT</button>
+
+    <h2>Output</h2>
+
+    <p>Temperature in Fahrenheit: <span id="fahr-out">----</span>.</p>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
